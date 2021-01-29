@@ -3,14 +3,14 @@
     text-decoration: none;
 }
 
-h1{
+h1{ /* all <h1> will be of font Monospace and be center aligned with a font size of 5 */
    
     font-family: 'Monospace', sans-serif;
     text-align: center;
     font-size: 5vmin;
     color:black;
 }
-h2{
+h2{ /* all <h2> will be of font Monospace and be center aligned with a font size of 3 */
    
     font-family: 'Monospace', sans-serif;
     text-align: center;
@@ -58,7 +58,7 @@ h5{
 }
 
 
-.header a{
+.header a{  /* changing the color of the text in the header and adjusting the size */
     text-decoration: none;
     font-family: 'Monospace', sans-serif;
     font-size: 200%;
@@ -67,10 +67,10 @@ h5{
     padding:5px;
     border-radius: 10px;
 }
-.header a:hover{
+.header a:hover{ /* when the text is hovered over the underline will be shown to ensure the user it is clickable */
     text-decoration: underline;
 }
-.header{
+.header{ /* creating the header */
     display: block;
     text-align: center;
     padding: 30px;
@@ -78,7 +78,7 @@ h5{
     margin-bottom: 20px;
   
 }
-.MePhoto{
+.MePhoto{ /* manipulating the photos*/
     width:20%;
     padding: 1em;
     border-radius: 15%;
@@ -86,7 +86,7 @@ h5{
     margin-left: 10%;
     margin-right: 10%;
 }
-.Coaching{
+.Coaching{ /* manipulating the photos*/
     width:52%;
     padding: 2em;
     border-radius: 10%;
@@ -94,7 +94,7 @@ h5{
     margin-left: auto;
     margin-right: auto;
 }
-.seadoo{
+.seadoo{ /* manipulating the photos*/
     width:50%;
     padding: 2em;
     border-radius: 30%;
@@ -102,14 +102,14 @@ h5{
     margin-left: auto;
     margin-right: auto;
 }
-.MeAgainPhoto{
+.MeAgainPhoto{ /* manipulating the photos*/
     width:20%;
     margin:1em;
     border-radius: 20%;
     float: left;
     margin-bottom: 110%;
 }
-.Motorcycle{
+.Motorcycle{ /* manipulating the photos*/
     width:20%;
     height: 150%;
     margin:1em;
@@ -165,7 +165,8 @@ li{
   
 
 }
-#github:hover{
+/* making thr social media buttons change color when hovered over*/
+#github:hover{ 
     background-color: rgb(0, 0, 0);
 }
 
