@@ -257,6 +257,10 @@ li{
   
 
 }
+.social{
+  font-family: 'Open Sans', sans-serif !important;
+  display: flex;
+}
 /* making thr social media buttons change color when hovered over*/
 #github:hover{ 
     background-color: rgb(0, 0, 0);

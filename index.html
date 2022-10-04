@@ -110,7 +110,7 @@ http://www.tooplate.com/view/2109-the-card
                     <figcaption>
                       <h2>
                         Capstone
-                        <span>Projects & Experience</span>
+                        <span>Project</span>
                       </h2>
                       <p>Indoor Training: How well are we mimicking 
                       <a href="https://github.com/CarletonProjectTeam35/CarletonProjectTeam35.github.io">movement</a></p>
@@ -182,13 +182,19 @@ http://www.tooplate.com/view/2109-the-card
                     </figcaption>
                   </figure>
                   <!-- to add more later--> 
-
                 </div>
+                <a
+                    href="#"
+                    id="tm_contact_link"
+                    data-linkid="3"
+                    class="Contact"
+                    >Contact</a
+                  >
               </section>
 
               <!-- Section 3 Contact -->
               <section class="tm-section tm-section-3 tm-section-left">
-                <form action="" class="tm-contact-form" method="post">
+                <form action="mailto:drakemcgillivray@cmail.carleton.ca" class="tm-contact-form" method="post">
                   <div class="form-group mb-4">
                     <input
                       type="text"
@@ -225,6 +231,7 @@ http://www.tooplate.com/view/2109-the-card
                     </button>
                   </div>
                 </form>
+                
               </section>
             </div>
           </div>
@@ -236,17 +243,7 @@ http://www.tooplate.com/view/2109-the-card
 
         <!-- Footer -->
         <footer>
-          <div class="social">
-          <li id="github"> <a class="media" href="https://github.com/Drake-mcg21" target="_blank"><i
-            class="fa fa-github"></i></a>
-          </li>
-          <li id="linkedin"><a class="media" href="https://www.linkedin.com/in/drake-mcgillivray/"
-            target="_blank"><i class="fa fa-linkedin"></i></li></a>
-          <li id="youtube"><a class="media" href="https://www.youtube.com/channel/UCv8XFKzK85BrKNdvry7Mvdg"
-            target="_blank"><i class="fa fa-youtube-square"></i></a></li>
-          <li id="email"><a class="media" href="mailto:drakemcgillivray@cmail.carleton.ca" target="_blank"><i
-            class="fa fa-envelope-square"></i></a></li>
-          </div>
+          
         </footer>
       </div>
     </div>
@@ -331,6 +328,7 @@ http://www.tooplate.com/view/2109-the-card
 
         $("#tm_about_link").on("click", navLinkClick);
         $("#tm_work_link").on("click", navLinkClick);
+        $("#tm_contact_link").on("click", navLinkClick);
 
         // Each menu item click
         eachNavLink.on("click", navLinkClick);

@@ -659,16 +659,19 @@ figure.effect-goliath:hover p {
   position: static;
 }
 
-#github:hover{ 
-  background-color: rgb(255, 255, 255);
+.Contact{
+  display: block;
+  color: black;
+  background: white;
+  width: 20%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
-
-#linkedin:hover{
-  background-color:rgb(67, 67, 158) ;
-}
-#youtube:hover{
-  background-color: crimson;
-}
-#email:hover{
-  background-color: rgb(0, 0, 248);
+.Contact:hover{
+  color: #950000;
+  text-decoration: none;
 }
