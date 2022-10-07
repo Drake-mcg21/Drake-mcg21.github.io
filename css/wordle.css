@@ -31,28 +31,41 @@
   }
   .drake-button{
     display: grid;
-    grid-auto-flow: column;
     color: rgb(204, 122, 122);
     background: rgb(102, 160, 76);
     padding: 15px 15px 15px 15px ;
     border-radius: 25px;
     margin-bottom: 2%;
-    width: 22%;
-    align-items: center;
-    justify-items: center;
+    width: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
     text-align: center;
   }
   .james-button{
-    display: flex;
+    display: grid;
     color: rgb(204, 122, 122);
     background: rgb(160, 76, 153);
     padding: 15px 15px 15px 15px ;
     border-radius: 25px;
-    margin-bottom: 2%;
-    width: 22%;
+    width: flex;
     margin: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .bradens-button{
+    display: grid;
+    color: rgb(209, 24, 24);
+    background: rgb(207, 103, 18);
+    padding: 15px 15px 15px 15px ;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    width: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
     text-align: center;
   }
   .tm-navbar-menu:hover {
