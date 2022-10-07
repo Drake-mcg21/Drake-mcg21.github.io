@@ -19,13 +19,13 @@
   .tm-site-header-box {
     text-align: center;
     display: center;
-    padding: 40px 40px 40px 40px;
+    padding: 25px 25px 25px 25px;
     margin: 40px 40px 40px;
   }
   .body{
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 19px;
-    color: #ffffff;
+    font-size: 20%;
+    color: #b67979;
     overflow-x: hidden;
     background-color: #25332e;
   }
@@ -33,7 +33,7 @@
     display: grid;
     color: rgb(204, 122, 122);
     background: rgb(102, 160, 76);
-    padding: 15px 15px 15px 15px ;
+    padding: 10px 10px 10px 10px ;
     border-radius: 25px;
     margin-bottom: 2%;
     width: flex;
@@ -46,7 +46,7 @@
     display: grid;
     color: rgb(204, 122, 122);
     background: rgb(160, 76, 153);
-    padding: 15px 15px 15px 15px ;
+    padding: 10px 10px 10px 10px ;
     border-radius: 25px;
     width: flex;
     margin: center;
@@ -59,7 +59,7 @@
     display: grid;
     color: rgb(209, 24, 24);
     background: rgb(207, 103, 18);
-    padding: 15px 15px 15px 15px ;
+    padding: 10px 10px 10px 10px ;
     border-radius: 25px;
     margin-bottom: 2%;
     width: flex;
