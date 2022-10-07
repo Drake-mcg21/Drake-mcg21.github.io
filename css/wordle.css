@@ -74,6 +74,19 @@
     margin-bottom: 2%;
     text-align: center;
   }
+  .user-button{
+    display: grid;
+    color: rgb(209, 24, 24);
+    background: rgb(125, 207, 18);
+    padding: 5% 5% 5% 5% ;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    width: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
   .tm-navbar-menu:hover {
     color: #950000;
     text-decoration: none;
