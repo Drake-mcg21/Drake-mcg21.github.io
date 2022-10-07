@@ -9,12 +9,12 @@
   }
 
 .tm-site-title {
-    font-size: 1rem;
+    font-size: 100%;
     text-transform: uppercase;
   }
   .tm-bg-dark {
     background: rgba(114, 171, 194, 0.7);
-    border-radius: 25px;
+    border-radius: 20%;
   }
   .tm-site-header-box {
     text-align: center;
@@ -86,7 +86,7 @@
   .tm-nav-link:visited {
     border-radius: 25px;
     color: rgb(0, 0, 0);
-    background-color: rgb(26, 228, 19);
+    background-color: rgb(255, 255, 255);
     padding: 10px 40px;
     display: center;
     margin-bottom: 6px;
