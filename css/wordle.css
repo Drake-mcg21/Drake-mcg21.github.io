@@ -2,6 +2,10 @@
     float: left;
     width: 33.33%;
   }
+  .column2 {
+    float: left;
+    width: 50%;
+  }
   .row:after {
     content: "";
     display: table;
