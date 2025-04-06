@@ -1,147 +1,159 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        /* Create two equal columns that floats next to each other */
-        .column {
-          float: left;
-          width: 50%;
-          padding: .3%;
-        }
-        
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        </style>
-    <!-- FOR THE CURIOUS: This site was made by @thebarrytone. Don't tell my mom. -->
-    
-    <title>Drake's Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drake McGillivray's Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 1em;
+      max-width: 960px;
+      margin: auto;
+      background-color: #fefefe;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    h1, h2, h3 { color: #003366; }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 1em;
+    }
+    .column {
+      flex: 1;
+      padding: 0.5em;
+      min-width: 250px;
+    }
+    ul {
+      list-style: disc inside;
+      padding-left: 1em;
+    }
+    a { color: #005bbb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { margin: 2em 0; }
+    footer {
+      margin-top: 3em;
+      padding-top: 2em;
+      border-top: 1px solid #ccc;
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-        <h1>Welcome to Drake's Portfolio</h1>
-    </header>
-    <hr>
-        <h2>Education</h2>
-        
-        <h3>Carleton University Sept 2018 - Dec 2022</h3>
-        <li>Graduated with a B.Eng in Computer Systems Engineering</li>
-    <hr>   
-        <h2>Skills</h2>
-        <h3>Programming Languages</h3>
-        <div class="row"> 
-            <div class="column"> <li>HTML</li>
-                <li>C</li>
-                <li>C++</li>
-                <li>PHP</li>
-                <li>Java</li>
-                <li>SQL</li>
-            
-            </div>
-            
-            <div class="column"><li>CSS</li>
-                <li>Lua</li>
-                <li>Python</li>
-                <li>Verilog</li>
-                <li>JavaScript</li> 
-                
-            
-            </div>
-        </div>  
-          
-          <h3>Software</h3>
-          <div class="row"> 
-            <div class="column" > <li>Vivado</li>
-                <li>MATLAB</li>
-                <li>Coppeliasim</li>
-                <li>Balsamiq</li>
-            
-            </div>
-            
-            <div class="column" ><li>SQL</li>
-                <li>Pytest</li>
-                <li>Figma</li>
-                <li>WireShark</li>
-                
-            
-            </div>
-        </div>
-          <h3>Embedded Systems</h3>
-          <div class="row"> 
-            <div class="column" > 
-                <li>MSP432R</li>
-                <li>Ardunio</li>
-                <li>Load Cell Sensors</li>
-                
-            </div>
-            
-            <div class="column" >
-                <li>Raspberry Pi</li>
-                <li>EMG Sensors</li>
-            
-            </div>
-          </div>
-        </div>
-        <hr> 
-        <h2>Projects</h2>
-        
-        <h3>Capstone Project: Indoor Movements and How Well We Mimic there Movemenents</h3>
-        <li> A project that compares the sport of ice hockey to rollerblading using EMG sensors and Load cell sensors. Tracked and stored the users muscle activity and weight distribution during test drills. This data was then run through a data analysis process using MATLAB, where we able to conclude that ice skating and roller blading have a 90% similarity in movements. For more details and report infomation that can be found  <a href="https://github.com/CarletonProjectTeam35">here.</a></li>
-        <h3>Alpha Security</h3>
-        <li>Using Raspberry Pis to create a home security system with a tripwire, camera, noise detection, and motion sensor. This can be seen <a href="https://github.com/bradenhayes/Alpha_Security">here!</a></li>
-        <h3>UX Design Project</h3>
-        <li>Tasked with pitching a new software project. Had to identify personas, along with their importance and impact. The creation of scenarios in which the user would access the system. Creating Lo-Fi prototypes using Balsamiq. This project can be seen <a href="https://github.com/Drake-mcg21/Balsamiq"> here!</a></li>
-        <h3>Snow Plow Robot</h3>
-        <li>Using coppeliasim to create and design to plow snow the greatest amount of snow and detect and avoid obstacles in 5 minutes. Robot was coded in lua and had to run through 3 different test maps. </li>
-        <h3>Simple Cache System</h3>
-        <li>Creating a simple 32 bit cache system <a href="https://github.com/Drake-mcg21/Cache">here!</a></li>
-        <h3>Collison Detection Headphones</h3>
-        <li>Researched patents to create a collision detection and warning system for distracted pedestrians used in conjunction with existing headphones. Acted as team leader, organised meetings to research patents to be used to develop the design and technology of the headphones.</li>
 
-        <hr>    
-        <h2>Sailing</h2>
-        <h3>2023 Harken Youth International Match Racing Cup</h3>
-        <li><a href="https://www.rnzys.org.nz/hyde-wins-2023-harken-youth-international-match-racing-cup/">Results</a></li>
-        <h3>Etchells</h3>
-            <li><a href="https://yachtscoring.com/event_results_cumulative.cfm?eID=16107">2023 PCYC Open Results (ZuluTravel.ca)</a></li>
-            <li><a href="https://www.oysqn.com/race/results2023/regattavibes/regattavibes2023.pdf">2023 Regatta Vibes Results (ZuluTravel.ca)</a></li>
-            <li><a href="https://www.ocregatta.com/2023-results">2023 OC Results (ZuluTravel.ca)</a></li>
-            <li><a href="">2023 Canadians Results (ZuluTravel.ca)</a></li>
-        <h3>Jump Start 2023 Sabatoge Farr 30</h3>
-            <li><a href="https://www.rhyc.ca/jumpstart-2023">Results</a></li>
-        <h3>2023 Golden Horse Shoe Regatta (Shark 24)</h3>
-            <li><a href="https://rhyc.ca/regatta/WBHSiA0jaC/results">Results</a></li>
-        <h3>Apprentice Sail Maker - Doyle Sails Auckland, 2023</h3>
-            <li>Organization of orders, to be processed by other lofts. Both within Auckland and to International Lofts.</li>
-            <li>Assisting various sections of the loft with various tasks (ie. Inspecting sails, custom parts to be
-            fabricated, and general labor).</li>
-            <li>Manufacturing of webbings, various covers, assembly of parts required for orders.</li>
-        <h3>Head Coach/Program Coordinator - The Royal Hamilton Yacht Club, 2023</h3>
-            <li>Developed and monitored program budgets and tracked expenses to ensure financial compliance and cost-effectiveness while maintaining target profits.</li>
-            <li>Supervised instructors and campers during activities to ensure safety and adherence to rules and regulations set by Ontario Sailing.</li>
-            <li>Established and maintained positive relationships with students, parents, and colleagues.</li>
-            <li>Participated in board meetings to provide guidance and advice on strategic decisions.</li>
-        <h3>Opti Championship Coach - The Royal Hamilton Yacht Club, 2018-2022</h3>
-            <li>Team RHYC Opti lead for regattas with the parents and sailing participants</li>
-            <li>Teaching fundamentals of sailing physics ie. CLR & CE, Waves, Clouds, and Other Various Topics.</li>
-        <h3>Hydraulic Trailer Operator & Mast Crane Operator - Port Credit Yacht Club, 2018-2022</h3>
-            <li>Responsible for haulout and launching of boats</li>
-            <li>Assiting member in the rigging of masts, along with the stepping of masts using a mast crane</li>
-    <hr>    
-        
-       
+  <header>
+    <h1>Drake McGillivray</h1>
+    <p>Engineer • Developer • Sailor</p>
+  </header>
 
-    
+  <hr>
+  <h2>Experience</h2>
+
+  <h3>Middleware Designer – Powerhouse Controls (2024 – Present)</h3>
+  <ul>
+    <li>Developed middleware to bridge PLCs and Autonomous Mobile Robots (AMRs).</li>
+    <li>Implemented MQTT messaging for real-time event communication between fleet and conveyor systems.</li>
+    <li>Worked with both custom and third-party robotics integrations across warehouse environments.</li>
+  </ul>
+
+  <h3>Apprentice Sailmaker – Doyle Sails Auckland (2023)</h3>
+  <ul>
+    <li>Created, repaired, and prepped performance sails for global clients.</li>
+    <li>Involved in all stages from measurements and stitching to webbing fabrication and packaging.</li>
+  </ul>
+
+  <h3>Program Coordinator & Head Coach – RHYC (2023)</h3>
+  <ul>
+    <li>Managed staff and budgets for RHYC junior programs.</li>
+    <li>Developed new curriculums and oversaw regatta coaching and logistics.</li>
+  </ul>
+
+  <hr>
+  <h2>Projects</h2>
+
+  <h3>📱 BotWatch – FRC Scouting App</h3>
+  <ul>
+    <li>iOS version written in Swift using UIKit and CoreGraphics.</li>
+    <li>Enables prebuilt forms, auto QR generation, and TSV data export for analytics.</li>
+    <li><a href="https://github.com/BCHRobotics/2025ReefScapeScouting">Link to Repo</a></li>
+    <li><a href="https://apps.apple.com/ca/app/botwatch/id6741486514">Link to AppStore</a></li>
+    </li>
+  </ul>
+
+  <h3>🚦 Point B – Smart Navigation App</h3>
+  <ul>
+    <li>React Native app for tracking traffic delays, hazard alerts, and time-based route optimization.</li>
+    <li>Includes familiar route memory, alternate path suggestions, and voice reporting features.</li>
+  </ul>
+
+  <h3>🏒 Capstone: Hockey vs Rollerblading Biomechanics</h3>
+  <ul>
+    <li>Analyzed EMG and load cell data to compare skating and rollerblading mechanics.</li>
+    <li>MATLAB was used to process and visualize signals across motion drills.</li>
+    <li>Result: 90% similarity between both movement patterns.</li>
+    <li><a href="https://github.com/CarletonProjectTeam35">GitHub Repo</a></li>
+  </ul>
+
+  <h3>❄️ Snow Plow Robot (CoppeliaSim)</h3>
+  <p>Lua-programmed robot capable of clearing snow and avoiding obstacles across test scenarios.</p>
+
+  <h3>💾 Simple Cache System</h3>
+  <p>Simulated a 32-bit direct-mapped cache system with configurable block sizes. <a href="https://github.com/Drake-mcg21/Cache">GitHub</a></p>
+
+  <h3>🏠 Alpha Security</h3>
+  <p>Home security system using Raspberry Pi with tripwire triggers, camera motion detection, and noise alerts. <a href="https://github.com/bradenhayes/Alpha_Security">View</a></p>
+
+  <h3>🧑‍💻 UX Wireframes & Prototyping</h3>
+  <p>Designed personas, scenarios, and wireframes for a custom productivity platform using Balsamiq. <a href="https://github.com/Drake-mcg21/Balsamiq">View</a></p>
+
+  <hr>
+  <h2>Education</h2>
+
+  <h3>Carleton University (2018 – 2022)</h3>
+  <ul>
+    <li>Bachelor of Engineering in Computer Systems Engineering</li>
+    <li>Relevant Courses: Embedded Systems, Microprocessor Architecture, Data Structures, Computer Networking</li>
+  </ul>
+
+  <hr>
+  <h2>Sailing Highlights</h2>
+
+  <h3>Match Racing</h3>
+  <ul>
+    <li><a href="https://www.rnzys.org.nz/hyde-wins-2023-harken-youth-international-match-racing-cup/">2023 Harken Youth International (RNZYS)</a></li>
+  </ul>
+
+  <h3>Etchells – ZuluTravel.ca</h3>
+  <ul>
+    <li><a href="https://yachtscoring.com/event_results_cumulative.cfm?eID=16107">PCYC Open</a></li>
+    <li><a href="https://www.oysqn.com/race/results2023/regattavibes/regattavibes2023.pdf">Regatta Vibes</a></li>
+    <li><a href="https://www.ocregatta.com/2023-results">OC Regatta</a></li>
+  </ul>
+
+  <h3>Farr 30 – Sabotage</h3>
+  <ul><li><a href="https://www.rhyc.ca/jumpstart-2023">Jump Start 2023</a></li></ul>
+
+  <h3>Shark 24</h3>
+  <ul><li><a href="https://rhyc.ca/regatta/WBHSiA0jaC/results">Golden Horseshoe Regatta</a></li></ul>
+
+  <h3>Other Roles</h3>
+  <ul>
+    <li>Opti Coach (RHYC, 2018–2022)</li>
+    <li>Trailer & Mast Crane Operator (PCYC)</li>
+  </ul>
+
+  <footer>
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:mmcgillivray20@gmail.com">mmcgillivray20@gmail.com</a></p>
+    <p>🔗 GitHub: <a href="https://github.com/Drake-mcg21">Drake-mcg21</a></p>
+    <p>📍 Based in Ontario, Canada</p>
+  </footer>
+
 </body>
 </html>
